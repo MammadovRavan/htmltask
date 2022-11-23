@@ -1,0 +1,596 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+
+
+
+
+
+
+
+
+* {
+    margin: 0;
+}
+
+.header-top {
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+
+    font-size: 6px;
+    justify-content: center;
+    align-items: center;
+    background-color: #444;
+    padding: 14px;
+    color: #EBEBEB;
+
+
+}
+
+.header-bottom {
+    display: flex;
+    background-color: #333;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+
+
+}
+
+header>.header-bottom a {
+    color: #D6D6D6;
+    text-decoration: none;
+    padding: 30px;
+}
+
+header>.header-bottom a:hover {
+    color: #fff;
+}
+
+
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FBFBFD;
+    margin: 4px;
+
+
+}
+
+
+
+section>.left-side {
+    font-family: 'Heebo', sans-serif;
+
+    color: #1D1D1F;
+    font-size: 55px;
+    cursor: pointer;
+    padding-left: 100px;
+
+
+
+
+
+
+}
+
+section>.left-side img {
+    width: 250px;
+    padding-left: 30px;
+    cursor: pointer;
+
+
+
+
+
+
+
+}
+
+section>.left-side>.p {
+    font-family: 'Poppins', sans-serif;
+
+    color: #87878C;
+    font-size: 20px;
+    padding-left: 25px;
+
+
+}
+
+section>.left-side nav a {
+    padding-left: 80px;
+    color: #0368CD;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+
+
+
+
+}
+
+section>.left-side nav a:hover {
+    text-decoration: underline;
+}
+
+section>.right-side {
+    cursor: pointer;
+
+}
+
+.sectiona img {
+    height: 300px;
+    width: 600px;
+    cursor: pointer;
+}
+
+.sectiona {
+    align-items: center;
+    text-align: center;
+    background-color: #FBFBFD;
+    margin: 4px;
+}
+
+.sectiona h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #1D1D1F;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.sectiona nav a {
+    color: #0368CD;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.sectiona nav a:hover {
+    text-decoration: underline;
+}
+
+.sectiona h1 {
+    font-family: 'Heebo', sans-serif;
+    font-size: 55px;
+    padding-top: 40px;
+    cursor: pointer;
+    color: #1D1D1F;
+}
+
+.sectionb img {
+    height: 300px;
+    width: 600px;
+    cursor: pointer;
+}
+
+.sectionb img {
+    height: 300px;
+    width: 600px;
+    cursor: pointer;
+}
+
+.sectionb {
+    align-items: center;
+    text-align: center;
+}
+
+.sectionb h2 {
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    color: #1D1D1F;
+    font-size: 30px;
+}
+
+.sectionb nav a {
+    color: #0368CD;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.sectionb nav a:hover {
+    text-decoration: underline;
+}
+
+.sectionb h1 {
+    font-family: 'Heebo', sans-serif;
+    font-size: 55px;
+    cursor: pointer;
+    padding-top: 40px;
+}
+
+section>.photo {
+    height: 300px;
+    width: 600px;
+}
+
+.sectionc h1 {
+    color: white;
+    font-family: 'Heebo', sans-serif;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.sectionc h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #87878C;
+    font-size: 20px;
+
+
+}
+
+.pro img {
+    height: 300px;
+    width: 600px;
+}
+
+.left-sidec {
+    margin: 6px;
+    background-color: black;
+    flex-basis: 50%;
+    cursor: pointer;
+
+}
+
+
+.top-sidec {
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+
+.watcha img {
+    height: 300px;
+    width: 600px;
+}
+
+.sectionc {
+    display: flex;
+}
+
+
+.right-sidec {
+    background-color: #FBFBFD;
+    flex: 1;
+    margin: 6px;
+    cursor: pointer;
+}
+
+.bottom-sidec {
+    text-align: center;
+}
+
+.M2 img {
+
+    height: 50px;
+}
+
+.watch img {
+    height: 60px;
+    padding-top: 40px;
+}
+
+section>.left-sidec>.top-sidec nav a {
+    color: #0368CD;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+
+}
+
+
+section>.left-sidec>.top-sidec nav a:hover {
+    text-decoration: underline;
+}
+
+
+.top-sided {
+    padding-top: 30px;
+    text-align: center;
+    background-color: #000;
+
+
+}
+
+.ipad img {
+    height: 400px;
+    width: 600px;
+}
+
+.sectiond {
+    display: flex;
+}
+
+.right-sided {
+    background-color: #FBFBFD;
+    flex: 1;
+    margin: 6px;
+    cursor: pointer;
+
+}
+
+.bottom-sided {
+    text-align: center;
+}
+
+.left-sided {
+    flex-basis: 50%;
+    margin: 6px;
+    cursor: pointer;
+}
+
+
+nav a {
+    color: #0368CD;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+padding: 20px;
+
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.top-sided h1 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #D6D6D6;
+
+
+}
+
+.airpods img {
+    height: 400px;
+    width: 500px;
+}
+
+.top-siden {
+    text-align: center;
+    background-color: #FBFBFD;
+}
+
+.bottom-siden {
+    text-align: center;
+
+}
+
+.top-siden {
+    padding-left: 100px;
+}
+
+.bottom-siden {
+    padding-left: 100px;
+}
+
+.bottom-siden h1 {
+    font-size: 45px;
+    font-family: 'Heebo', sans-serif;
+    color: #1D1D1F;
+
+}
+
+.bottom-siden h2 {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #1D1D1F;
+}
+
+.arcade img {
+    height: 35px;
+}
+
+.top-sidef h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #1D1D1F;
+
+}
+
+.sectionf {
+    display: flex;
+}
+
+.top-sidef {
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 40px;
+}
+
+.tel img {
+    height: 400px;
+    width: 600px;
+}
+
+.left-sidef {
+    flex-basis: 50%;
+    cursor: pointer;
+    background-color: #FBFBFD;
+}
+
+.bottom-sidef {
+    text-align: center;
+}
+
+.film img {
+    height: 600px;
+    width: 740px;
+
+
+
+
+}
+
+.right-sidef {
+    text-align: center;
+    margin: 6px;
+    flex: 1;
+    cursor: pointer;
+
+
+}
+
+.footer pre {
+    font-family: 'Raleway', sans-serif;
+
+    font-size: 14px;
+    color: #707075;
+}
+
+.footer-top {
+    padding-left: 220px;
+    padding-top: 30px;
+
+
+}
+
+.explore h1 {
+    color: #333;
+    font-size: 13px;
+    padding-left: 7px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.explore a {
+    color: #444;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    display: flex;
+    padding: 7px;
+    text-decoration: none;
+
+}
+
+.explore {
+    padding-left: 225px;
+    padding-top: 20px;
+
+
+}
+
+.explore a:hover {
+    text-decoration: underline;
+}
+
+/* services */
+.services h1 {
+    color: #333;
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 7px;
+}
+
+.services a {
+    color: #444;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    display: flex;
+    padding: 7px;
+    text-decoration: none;
+}
+
+.services a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    display: flex;
+}
+
+.services {
+    padding-top: 20px;
+    padding-left: 150px;
+}
+
+/* business */
+.business h1 {
+    color: #333;
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 7px;
+}
+
+.business a {
+    color: #444;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    display: flex;
+    padding: 7px;
+    text-decoration: none;
+}
+
+.business a:hover {
+    text-decoration: underline;
+}
+
+.business {
+    padding-top: 20px;
+    padding-left: 150px;
+}
+
+/* apple values */
+.apple h1 {
+    color: #333;
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 7px;
+}
+
+.apple a {
+    color: #444;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    display: flex;
+    padding: 7px;
+    text-decoration: none;
+}
+
+.apple a:hover {
+    text-decoration: underline;
+}
+
+.apple {
+    padding-top: 20px;
+    padding-left: 150px;
+}
+
+footer {
+    background-color: #F5F5F7;
+}
+
+/* son */
+.final p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #707075;
+    padding-top: 4px;
+
+    padding-bottom: 30px;
+}
+
+.footer-final {
+    display: flex;
+    padding-top: 30px;
+    padding-left: 220px;
+}
+
+.footer-final a {
+    color: #1D1D1F;
+    padding: 15px;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+
+}
+
+.footer-final a:hover {
+    text-decoration: underline;
+}
